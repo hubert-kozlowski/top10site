@@ -1,4 +1,6 @@
-
+.container {
+    text-decoration: none;
+}
 
 .detailed {
     transition: transform 0.3s, box-shadow 0.3s;
@@ -7,11 +9,13 @@
     padding: 20px;
     color: azure;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
   }
   
   .detailed:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
   }
   
   #destination1 {
@@ -116,3 +120,6 @@
     text-decoration: none;
 }
   
+a {
+    text-decoration: none !important;
+}
