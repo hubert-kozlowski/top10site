@@ -1,5 +1,6 @@
 .container {
     text-decoration: none;
+    scroll-margin-top: 5vh;
 }
 
 .detailed {
@@ -11,16 +12,10 @@
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
     text-decoration: none;
   }
-  
-  .detailed:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    text-decoration: none;
-  }
-  
+
 .detailed:hover {
   transform: scale(1.05);
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
@@ -32,7 +27,7 @@
     align-items: center;
     justify-content: center;
     background-color: #007bff; 
-    color: #fff;
+    color: #ffffff;
     border: 2px solid #007bff;
     border-radius: 5px;
     text-decoration: none;
@@ -42,7 +37,7 @@
 
 .destination-button:hover {
     background-color: #0056b3;
-    color: #fff;
+    color: #ffffff;
     border: 2px solid #0056b3; 
     transform: scale(1.05);
     text-decoration: none;
