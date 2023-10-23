@@ -1,399 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Top 12 Travel Destinations</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <style>
-    #destination1 {
-        background-image: url('img/paris.png');
+      #destination1 {
+        background-image: url("img/paris.png");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    #destination2 {
-        background-image: url('img/bora.jpg');
+      }
+      #destination2 {
+        background-image: url("img/bora.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    #destination3 {
-        background-image: url('img/glacier.jpg');
+      }
+      #destination3 {
+        background-image: url("img/glacier.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    #destination4 {
-        background-image: url('img/rome.jpg');
+      }
+      #destination4 {
+        background-image: url("img/rome.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    #destination5 {
-        background-image: url('img/alps.jpg');
+      }
+      #destination5 {
+        background-image: url("img/alps.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    #destination6 {
-        background-image: url('img/maui.jpg');
+      }
+      #destination6 {
+        background-image: url("img/maui.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    #destination7 {
-        background-image: url('img/london.jpg');
+      }
+      #destination7 {
+        background-image: url("img/london.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    #destination8 {
-        background-image: url('img/maldives.jpg');
+      }
+      #destination8 {
+        background-image: url("img/maldives.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    #destination9 {
-        background-image: url('img/caicos.jpg');
+      }
+      #destination9 {
+        background-image: url("img/caicos.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    #destination10 {
-        background-image: url('img/tokyo.jpg');
+      }
+      #destination10 {
+        background-image: url("img/tokyo.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    #destination11 {
-        background-image: url('img/phuket.jpg');
+      }
+      #destination11 {
+        background-image: url("img/phuket.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    #destination12 {
-        background-image: url('img/costa.png');
+      }
+      #destination12 {
+        background-image: url("img/costa.png");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-  </style>
-</head>
+      }
+    </style>
+  </head>
 
-<body>
-    <div id="cookies-popup" class="alert alert-primary fixed-bottom mb-0 rounded-0 d-none">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-9">
-                    <p class="mb-0">We use cookies to enhance your experience. By continuing to visit this site, you
-                        agree to our use of cookies.</p>
-                </div>
-                <div class="col-md-3 text-md-right">
-                    <button id="accept-cookies" class="btn btn-success btn-sm">Accept</button>
-                    <button id="decline-cookies" class="btn btn-danger btn-sm">Decline</button>
-                </div>
-            </div>
+  <body>
+    <div
+      id="cookies-popup"
+      class="alert alert-primary fixed-bottom mb-0 rounded-0 d-none"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-9">
+            <p class="mb-0">
+              We use cookies to enhance your experience. By continuing to visit
+              this site, you agree to our use of cookies.
+            </p>
+          </div>
+          <div class="col-md-3 text-md-right">
+            <button id="accept-cookies" class="btn btn-success btn-sm">
+              Accept
+            </button>
+            <button id="decline-cookies" class="btn btn-danger btn-sm">
+              Decline
+            </button>
+          </div>
         </div>
+      </div>
     </div>
 
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h3 class="nav-item">Top 12 ...&nbsp;&nbsp;&nbsp;</h3>
-        <a class="nav-item nav-link disabled" href="index.html">Travel Destinations</a>
-        <!-- I couldnt be bothered do all the image shit all over again for cities too -->
-        <a class="nav-item nav-link" href="cities.html">Cities to visit</a>
-    
+      <h3 class="nav-item">Top 12 ...&nbsp;&nbsp;&nbsp;</h3>
+      <a class="nav-item nav-link disabled" href="index.html"
+        >Travel Destinations</a
+      >
+      <!-- I couldnt be bothered do all the image shit all over again for cities too -->
+      <a class="nav-item nav-link" href="cities.html">Cities to visit</a>
     </nav>
 
     <div class="container my-5">
-        <h1 class="text-center">Top 12 Travel Destinations</h1>
-        <p class="lead text-center">Explore the world's most exciting places.</p>
-        <br><br>
-        <p class="small text-center">Click on a destination listing to get more information.</p>
+      <h1 class="text-center">Top 12 Travel Destinations</h1>
+      <p class="lead text-center">Explore the world's most exciting places.</p>
+      <br /><br />
+      <p class="small text-center">
+        Click on a destination listing to get more information.
+      </p>
     </div>
-
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <a class="destination-button" href="#destination1">1. Paris, France</a>
-            </div>
-            <div class="col-md-4">
-                <a class="destination-button" href="#destination2">2. Bora Bora</a>
-            </div>
-            <div class="col-md-4">
-                <a class="destination-button" href="#destination3">3. Glacier National Park, USA</a>
-            </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a class="button" href="#destination1">1. Paris, France</a>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <a class="destination-button" href="#destination4">4. Rome, Italy</a>
-            </div>
-            <div class="col-md-4">
-                <a class="destination-button" href="#destination5">5. Swiss Alps</a>
-            </div>
-            <div class="col-md-4">
-                <a class="destination-button" href="#destination6">6. Maui, Hawaii</a>
-            </div>
+        <div class="col-md-4">
+          <a class="button" href="#destination2">2. Bora Bora</a>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <a class="destination-button" href="#destination7">7. London, England</a>
-            </div>
-            <div class="col-md-4">
-                <a class="destination-button" href="#destination8">8. Maldives</a>
-            </div>
-            <div class="col-md-4">
-                <a class="destination-button" href="#destination9">9. Turks &amp; Caicos</a>
-            </div>
+        <div class="col-md-4">
+          <a class="button" href="#destination3"
+            >3. Glacier National Park, USA</a
+          >
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <a class="destination-button" href="#destination10">10. Tokyo, Japan</a>
-            </div>
-            <div class="col-md-4">
-                <a class="destination-button" href="#destination11">11. Phuket, Thailand</a>
-            </div>
-            <div class="col-md-4">
-                <a class="destination-button" href="#destination12">12. Costa Rica</a>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a class="button" href="#destination4">4. Rome, Italy</a>
         </div>
+        <div class="col-md-4">
+          <a class="button" href="#destination5">5. Swiss Alps</a>
+        </div>
+        <div class="col-md-4">
+          <a class="button" href="#destination6">6. Maui, Hawaii</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a class="button" href="#destination7">7. London, England</a>
+        </div>
+        <div class="col-md-4">
+          <a class="button" href="#destination8">8. Maldives</a>
+        </div>
+        <div class="col-md-4">
+          <a class="button" href="#destination9">9. Turks &amp; Caicos</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a class="button" href="#destination10">10. Tokyo, Japan</a>
+        </div>
+        <div class="col-md-4">
+          <a class="button" href="#destination11">11. Phuket, Thailand</a>
+        </div>
+        <div class="col-md-4">
+          <a class="button" href="#destination12">12. Costa Rica</a>
+        </div>
+      </div>
     </div>
 
-    <hr class="my-5">
+    <hr class="my-5" />
 
     <!-- Detailed Descriptions -->
     <a href="https://www.visitparisregion.com/en" target="_blank">
-        <div class="container my-5 detailed" id="destination1">
-            <h2><strong>1.</strong> Paris, France</h2>
-            <p>
-                <strong>Paris</strong>, the <strong>"City of Love"</strong>, is a timeless masterpiece waiting to be
-                explored.
-                With its iconic landmarks like the <strong>Eiffel Tower</strong> and <strong>Notre-Dame
-                    Cathedral</strong>,
-                Paris exudes an unparalleled romantic charm. Stroll along the <strong>Seine River</strong>'s banks,
-                savor the world's finest pastries in charming cafés,
-                and embrace the city's artistic soul at the Louvre Museum.<br><br>
-                A visit to <strong>Montmartre</strong> offers spectacular city views,
-                while the <strong>Palace of Versailles</strong> takes you back in time.
-                Paris is a dream destination for anyone in search of culture,
-                history, and a dash of romance.
-            </p>
-        </div>
+      <div class="container my-5 detailed" id="destination1">
+        <h2><strong>1.</strong> Paris, France</h2>
+        <p>
+          <strong>Paris</strong>, the <strong>"City of Love"</strong>, is a
+          timeless masterpiece waiting to be explored. With its iconic landmarks
+          like the <strong>Eiffel Tower</strong> and
+          <strong>Notre-Dame Cathedral</strong>, Paris exudes an unparalleled
+          romantic charm. Stroll along the <strong>Seine River</strong>'s banks,
+          savor the world's finest pastries in charming cafés, and embrace the
+          city's artistic soul at the Louvre Museum.<br /><br />
+          A visit to <strong>Montmartre</strong> offers spectacular city views,
+          while the <strong>Palace of Versailles</strong> takes you back in
+          time. Paris is a dream destination for anyone in search of culture,
+          history, and a dash of romance.
+        </p>
+      </div>
     </a>
 
     <a href="https://www.borabora.com/" target="_blank">
-        <div class="container my-5 detailed" id="destination2">
-            <h2><strong>2.</strong> Bora Bora</h2>
-            <p>
-                Nestled in the <strong>South Pacific</strong>, <strong>Bora Bora</strong> is the epitome of a tropical
-                paradise.
-                With its <strong>crystal-clear turquoise waters</strong>, overwater bungalows, and <strong>lush green
-                    peaks</strong>,
-                this island offers an escape from reality. Indulge in water sports,
-                relax on the <strong>stunning beaches</strong>, or embark on a snorkeling adventure in the lagoon.
-                <br><br>Bora Bora is a dream destination for honeymooners and couples seeking the ultimate
-                <strong>romantic getaway</strong> amidst nature's finest creations.
-            </p>
-        </div>
+      <div class="container my-5 detailed" id="destination2">
+        <h2><strong>2.</strong> Bora Bora</h2>
+        <p>
+          Nestled in the <strong>South Pacific</strong>,
+          <strong>Bora Bora</strong> is the epitome of a tropical paradise. With
+          its <strong>crystal-clear turquoise waters</strong>, overwater
+          bungalows, and <strong>lush green peaks</strong>, this island offers
+          an escape from reality. Indulge in water sports, relax on the
+          <strong>stunning beaches</strong>, or embark on a snorkeling adventure
+          in the lagoon. <br /><br />Bora Bora is a dream destination for
+          honeymooners and couples seeking the ultimate
+          <strong>romantic getaway</strong> amidst nature's finest creations.
+        </p>
+      </div>
     </a>
 
     <a href="https://www.nps.gov/glac/planyourvisit/index.htm" target="_blank">
-        <div class="container my-5 detailed" id="destination3">
-            <h2><strong>3.</strong> Glacier National Park, USA</h2>
-            <p>
-                Discover the untamed beauty of <strong>Glacier National Park</strong> in <strong>Montana</strong>.
-                With over a million acres of wilderness, the park boasts <strong>pristine lakes</strong>,
-                <strong>rugged mountains, and awe-inspiring glaciers.</strong> Hike through <strong>lush forests</strong>,
-                witness incredible wildlife, and experience the exhilaration of <strong>pristine alpine landscapes</strong>.
-                <br><br>Be sure to drive along the stunning Going-to-the-Sun Road for <strong>jaw-dropping vistas</strong>.
-                Glacier National Park is <strong>a haven for nature lovers and outdoor enthusiasts</strong>.
-            </p>
-        </div>
+      <div class="container my-5 detailed" id="destination3">
+        <h2><strong>3.</strong> Glacier National Park, USA</h2>
+        <p>
+          Discover the untamed beauty of
+          <strong>Glacier National Park</strong> in <strong>Montana</strong>.
+          With over a million acres of wilderness, the park boasts
+          <strong>pristine lakes</strong>,
+          <strong>rugged mountains, and awe-inspiring glaciers.</strong> Hike
+          through <strong>lush forests</strong>, witness incredible wildlife,
+          and experience the exhilaration of
+          <strong>pristine alpine landscapes</strong>. <br /><br />Be sure to
+          drive along the stunning Going-to-the-Sun Road for
+          <strong>jaw-dropping vistas</strong>. Glacier National Park is
+          <strong>a haven for nature lovers and outdoor enthusiasts</strong>.
+        </p>
+      </div>
     </a>
-
 
     <a href="https://www.turismoroma.it/en" target="_blank">
-        <div class="container my-5 detailed" id="destination4">
-            <h2><strong>4.</strong> Rome, Italy</h2>
-            <p>
-                <strong>Rome, the eternal city</strong>, beckons you with its <strong>rich history</strong> and
-                <strong>magnificent architecture</strong>.
-                Explore the <strong>awe-inspiring Colosseum</strong>, the grandeur of the Roman Forum,
-                and the <strong>enchanting Vatican City</strong>.<br><br> Savor authentic <strong>Italian
-                    cuisine</strong>
-                in local trattorias
-                and indulge in the art of <strong>"dolce far niente"</strong> – the sweet art of doing nothing.
-                Rome's <strong>cobbled streets and fountain</strong>s provide an ambiance that transports you to a
-                bygone
-                era,
-                making it <strong>>a must-visit destination for history and art aficionados</strong>
-            </p>
-        </div>
+      <div class="container my-5 detailed" id="destination4">
+        <h2><strong>4.</strong> Rome, Italy</h2>
+        <p>
+          <strong>Rome, the eternal city</strong>, beckons you with its
+          <strong>rich history</strong> and
+          <strong>magnificent architecture</strong>. Explore the
+          <strong>awe-inspiring Colosseum</strong>, the grandeur of the Roman
+          Forum, and the <strong>enchanting Vatican City</strong>.<br /><br />
+          Savor authentic <strong>Italian cuisine</strong> in local trattorias
+          and indulge in the art of <strong>"dolce far niente"</strong> – the
+          sweet art of doing nothing. Rome's
+          <strong>cobbled streets and fountain</strong>s provide an ambiance
+          that transports you to a bygone era, making it
+          <strong
+            >>a must-visit destination for history and art aficionados</strong
+          >
+        </p>
+      </div>
     </a>
 
-
-    <a href="https://switzerlandbylocals.com/en/the-ultimate-swiss-alps-guide/" target="_blank">
-        <div class="container my-5 detailed" id="destination5">
-            <h2><strong>5.</strong> Swiss Alps</h2>
-            <p>
-                <strong>The Swiss Alps</strong> offer an exhilarating blend of <strong>natural beauty</strong> and
-                outdoor
-                adventure.
-                Nestled amidst <strong>picturesque mountain landscapes</strong>, Switzerland boasts <strong>world-class
-                    skiing</strong>,
-                <strong>hiking trails</strong>, and <strong>charming alpine villages</strong>.<br><br>
-                Gaze at the <strong>mesmerizing Matterhorn</strong>,
-                embark on <strong>scenic train rides</strong>, and relish the finest <strong>Swiss chocolate</strong>.
-                The Swiss Alps are <strong>the ultimate destination for nature enthusiasts,
-                    adrenaline junkies, and lovers of breathtaking scenery</strong>.
-            </p>
-        </div>
-
+    <a
+      href="https://switzerlandbylocals.com/en/the-ultimate-swiss-alps-guide/"
+      target="_blank"
+    >
+      <div class="container my-5 detailed" id="destination5">
+        <h2><strong>5.</strong> Swiss Alps</h2>
+        <p>
+          <strong>The Swiss Alps</strong> offer an exhilarating blend of
+          <strong>natural beauty</strong> and outdoor adventure. Nestled amidst
+          <strong>picturesque mountain landscapes</strong>, Switzerland boasts
+          <strong>world-class skiing</strong>, <strong>hiking trails</strong>,
+          and <strong>charming alpine villages</strong>.<br /><br />
+          Gaze at the <strong>mesmerizing Matterhorn</strong>, embark on
+          <strong>scenic train rides</strong>, and relish the finest
+          <strong>Swiss chocolate</strong>. The Swiss Alps are
+          <strong
+            >the ultimate destination for nature enthusiasts, adrenaline
+            junkies, and lovers of breathtaking scenery</strong
+          >.
+        </p>
+      </div>
     </a>
-
 
     <a href="https://www.gohawaii.com/islands/maui" target="_blank">
-        <div class="container my-5 detailed" id="destination6">
-            <h2><strong>6.</strong> Maui, Hawaii</h2>
-            <p>
-                <strong>Maui</strong>, known as the <strong>"Valley Isle"</strong>, is a Hawaiian gem that combines
-                <strong>pristine beaches with volcanic landscapes</strong>. Witness the sunrise at
-                <strong>Haleakalā</strong>,
-                snorkel in the <strong>Molokini Crater</strong>, and drive the <strong>Hana Highway</strong> to discover
-                <strong>lush waterfalls and dense rainforests</strong>. Relax on the <strong>golden sands of Wailea
-                    Beach</strong>,
-                surf the <strong>Pacific waves</strong>, and embrace the <strong>aloha spirit</strong>.<br><br>
-                Maui promises <strong>a diverse range of adventures for travelers seeking a taste of paradise</strong>.
-            </p>
-        </div>
+      <div class="container my-5 detailed" id="destination6">
+        <h2><strong>6.</strong> Maui, Hawaii</h2>
+        <p>
+          <strong>Maui</strong>, known as the <strong>"Valley Isle"</strong>, is
+          a Hawaiian gem that combines
+          <strong>pristine beaches with volcanic landscapes</strong>. Witness
+          the sunrise at <strong>Haleakalā</strong>, snorkel in the
+          <strong>Molokini Crater</strong>, and drive the
+          <strong>Hana Highway</strong> to discover
+          <strong>lush waterfalls and dense rainforests</strong>. Relax on the
+          <strong>golden sands of Wailea Beach</strong>, surf the
+          <strong>Pacific waves</strong>, and embrace the
+          <strong>aloha spirit</strong>.<br /><br />
+          Maui promises
+          <strong
+            >a diverse range of adventures for travelers seeking a taste of
+            paradise</strong
+          >.
+        </p>
+      </div>
     </a>
-
 
     <a href="https://www.visitlondon.com/" target="_blank">
-        <div class="container my-5 detailed" id="destination7">
-            <h2><strong>7.</strong> London, England</h2>
-            <p>
-                <strong>London</strong>, a <strong>dynamic fusion of history and modernity</strong>,
-                boasts a remarkable blend of <strong>old-world charm and cutting-edge culture</strong>.
-                Immerse yourself in British history at the <strong>Tower of London</strong>,
-                visit the <strong>British Museum's</strong> treasures, and enjoy a <strong>traditional afternoon
-                    tea</strong>.
-                Stroll along the <strong>Thames River</strong>, explore the <strong>vibrant streets of Soho</strong>,
-                and experience the <strong>West End's world-class theater</strong>.<br><br>
-                London welcomes travelers with open arms, offering a kaleidoscope of
-                attractions <strong>for all interests</strong>.
-            </p>
-        </div>
+      <div class="container my-5 detailed" id="destination7">
+        <h2><strong>7.</strong> London, England</h2>
+        <p>
+          <strong>London</strong>, a
+          <strong>dynamic fusion of history and modernity</strong>, boasts a
+          remarkable blend of
+          <strong>old-world charm and cutting-edge culture</strong>. Immerse
+          yourself in British history at the <strong>Tower of London</strong>,
+          visit the <strong>British Museum's</strong> treasures, and enjoy a
+          <strong>traditional afternoon tea</strong>. Stroll along the
+          <strong>Thames River</strong>, explore the
+          <strong>vibrant streets of Soho</strong>, and experience the
+          <strong>West End's world-class theater</strong>.<br /><br />
+          London welcomes travelers with open arms, offering a kaleidoscope of
+          attractions <strong>for all interests</strong>.
+        </p>
+      </div>
     </a>
-
 
     <a href="https://visitmaldives.com/en" target="_blank">
-        <div class="container my-5 detailed" id="destination8">
-            <h2><strong>8.</strong> Maldives</h2>
-            <p>
-                <strong>The Maldives</strong>, an archipelago of <strong>paradisiacal islands in the Indian Ocean</strong>,
-                is a synonym for luxury and serenity. With its <strong>overwater bungalows</strong>
-                and <strong>pristine coral reefs</strong>, it's a <strong>diver's and honeymooner's paradise</strong>.<br><br>
-                Explore the <strong>vibrant marine life</strong> while snorkeling, unwind with a spa treatment
-                on the beach, or simply soak in the <strong>breathtaking sunsets</strong>.
-                The Maldives embodies pure indulgence <strong>for those seeking a serene escape</strong>.
-            </p>
-        </div>
+      <div class="container my-5 detailed" id="destination8">
+        <h2><strong>8.</strong> Maldives</h2>
+        <p>
+          <strong>The Maldives</strong>, an archipelago of
+          <strong>paradisiacal islands in the Indian Ocean</strong>, is a
+          synonym for luxury and serenity. With its
+          <strong>overwater bungalows</strong> and
+          <strong>pristine coral reefs</strong>, it's a
+          <strong>diver's and honeymooner's paradise</strong>.<br /><br />
+          Explore the <strong>vibrant marine life</strong> while snorkeling,
+          unwind with a spa treatment on the beach, or simply soak in the
+          <strong>breathtaking sunsets</strong>. The Maldives embodies pure
+          indulgence <strong>for those seeking a serene escape</strong>.
+        </p>
+      </div>
     </a>
-
 
     <a href="https://www.visittci.com/" target="_blank">
-        <div class="container my-5 detailed" id="destination9">
-            <h2><strong>9.</strong> Turks &amp; Caicos</h2>
-            <p>
-                <strong>Turks and Caicos</strong>, an idyllic Caribbean <strong>paradise</strong>,
-                boasts some of the <strong>world's most magnificent beaches</strong>.
-                Grace Bay's turquoise waters and powdery sands set the stage
-                for a perfect beach getaway. Snorkel the <strong>vibrant coral reefs</strong> of Chalk Sound,
-                visit the <strong>Conch Bar Caves</strong>, and savor fresh seafood at local
-                beachfront restaurants.<br><br> Turks & Caicos is <strong>an oasis for beach lovers
-                    and water enthusiasts, offering a tranquil escape from the everyday hustle</strong>.
-
-            </p>
-        </div>
+      <div class="container my-5 detailed" id="destination9">
+        <h2><strong>9.</strong> Turks &amp; Caicos</h2>
+        <p>
+          <strong>Turks and Caicos</strong>, an idyllic Caribbean
+          <strong>paradise</strong>, boasts some of the
+          <strong>world's most magnificent beaches</strong>. Grace Bay's
+          turquoise waters and powdery sands set the stage for a perfect beach
+          getaway. Snorkel the <strong>vibrant coral reefs</strong> of Chalk
+          Sound, visit the <strong>Conch Bar Caves</strong>, and savor fresh
+          seafood at local beachfront restaurants.<br /><br />
+          Turks & Caicos is
+          <strong
+            >an oasis for beach lovers and water enthusiasts, offering a
+            tranquil escape from the everyday hustle</strong
+          >.
+        </p>
+      </div>
     </a>
-
 
     <a href="https://www.japan-guide.com/e/e2164.html" target="_blank">
-        <div class="container my-5 detailed" id="destination10">
-            <h2><strong>10.</strong> Tokyo, Japan</h2>
-            <p>
-                <strong>Tokyo</strong>, a bustling metropolis with a <strong>rich cultural heritage</strong>,
-                is a mesmerizing blend of tradition and innovation.
-                Discover the <strong>vibrant neighborhoods</strong> of Shinjuku, Shibuya,
-                and Harajuku, then find tranquility in the <strong>Meiji Shrine gardens</strong>.
-                Savor delectable sushi in <strong>Tsukiji Market</strong>, attend a <strong>traditional tea ceremony</strong>,
-                and immerse yourself in <strong>Japanese pop culture</strong>.<br><br>
-                Tokyo is <strong>a captivating destination for those seeking a contemporary
-                    urban experience infused with history</strong>.
-
-            </p>
-        </div>
+      <div class="container my-5 detailed" id="destination10">
+        <h2><strong>10.</strong> Tokyo, Japan</h2>
+        <p>
+          <strong>Tokyo</strong>, a bustling metropolis with a
+          <strong>rich cultural heritage</strong>, is a mesmerizing blend of
+          tradition and innovation. Discover the
+          <strong>vibrant neighborhoods</strong> of Shinjuku, Shibuya, and
+          Harajuku, then find tranquility in the
+          <strong>Meiji Shrine gardens</strong>. Savor delectable sushi in
+          <strong>Tsukiji Market</strong>, attend a
+          <strong>traditional tea ceremony</strong>, and immerse yourself in
+          <strong>Japanese pop culture</strong>.<br /><br />
+          Tokyo is
+          <strong
+            >a captivating destination for those seeking a contemporary urban
+            experience infused with history</strong
+          >.
+        </p>
+      </div>
     </a>
 
-
-    <a href="https://www.tourismthailand.org/Destinations/Provinces/phuket/350" target="_blank">
-        <div class="container my-5 detailed" id="destination11">
-            <h2><strong>11.</strong> Phuket, Thailand</h2>
-            <p>
-                <strong>Phuket</strong>, Thailand's largest island, is renowned for its <strong>stunning beaches</strong>,
-                <strong>crystal-clear waters</strong>, and <strong>vibrant nightlife</strong>. Explore the bustling <strong>Patong Beach</strong>,
-                island-hop to the <strong>Phi Phi Islands</strong>, and visit the revered <strong>Big Buddha</strong>.
-                <br><br>Phuket offers a balance of <strong>lively nightlife and serene landscapes</strong>,
-                making it <strong>a top choice for both party enthusiasts and beach lovers</strong>.
-            </p>
-        </div>
+    <a
+      href="https://www.tourismthailand.org/Destinations/Provinces/phuket/350"
+      target="_blank"
+    >
+      <div class="container my-5 detailed" id="destination11">
+        <h2><strong>11.</strong> Phuket, Thailand</h2>
+        <p>
+          <strong>Phuket</strong>, Thailand's largest island, is renowned for
+          its <strong>stunning beaches</strong>,
+          <strong>crystal-clear waters</strong>, and
+          <strong>vibrant nightlife</strong>. Explore the bustling
+          <strong>Patong Beach</strong>, island-hop to the
+          <strong>Phi Phi Islands</strong>, and visit the revered
+          <strong>Big Buddha</strong>. <br /><br />Phuket offers a balance of
+          <strong>lively nightlife and serene landscapes</strong>, making it
+          <strong
+            >a top choice for both party enthusiasts and beach lovers</strong
+          >.
+        </p>
+      </div>
     </a>
-
-
 
     <a href="https://www.visitcostarica.com/en" target="_blank">
-        <div class="container my-5 detailed" id="destination12">
-            <h2><strong>12.</strong> Costa Rica</h2>
-            <p>
-                <strong>Costa Rica</strong>, a Central American <strong>gem</strong>, is a biodiverse <strong>wonderland</strong>
-                with <strong>lush rainforests, dramatic volcanoes, and pristine beaches</strong>.
-                Discover the <strong>Arenal Volcano</strong>, experience thrilling zip-line adventures
-                through the jungle canopy, and witness <strong>sea turtles nesting in Tortuguero</strong>.
-                Explore the <strong>Monteverde Cloud Forest</strong>, relax on the Pacific coast's beaches,
-                and immerse yourself in the <strong>"pura vida"</strong> lifestyle.<br><br>
-                Costa Rica is the <strong>ultimate destination for eco-adventurers and
-                    nature enthusiasts</strong>.
-            </p>
-        </div>
+      <div class="container my-5 detailed" id="destination12">
+        <h2><strong>12.</strong> Costa Rica</h2>
+        <p>
+          <strong>Costa Rica</strong>, a Central American <strong>gem</strong>,
+          is a biodiverse <strong>wonderland</strong> with
+          <strong
+            >lush rainforests, dramatic volcanoes, and pristine beaches</strong
+          >. Discover the <strong>Arenal Volcano</strong>, experience thrilling
+          zip-line adventures through the jungle canopy, and witness
+          <strong>sea turtles nesting in Tortuguero</strong>. Explore the
+          <strong>Monteverde Cloud Forest</strong>, relax on the Pacific coast's
+          beaches, and immerse yourself in the
+          <strong>"pura vida"</strong> lifestyle.<br /><br />
+          Costa Rica is the
+          <strong
+            >ultimate destination for eco-adventurers and nature
+            enthusiasts</strong
+          >.
+        </p>
+      </div>
     </a>
+    <hr>
 
-
+    <section class="container my-5" id="youtube-section">
+      <h2 class="text-center">Watch our Featured Video</h2>
+      <p class="text-center">
+        Explore more about our destinations in this video.
+      </p>
+ <br>
+      <div class="text-center">
+        <div class="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/s3G2kLruJJo?si=E4xapl4uZf82ioKE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="autoplay;"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
     <!--<p>Test Button, Ignore</p>
     <button id="reset-cookies" class="btn btn-warning btn-sm">Reset Cookies Popup</button>
     -->
-    <footer class="footer text-center" style="background-color: #f8f9fa;">
-        <div class="container">
-            <p style="color: #ccc;">&copy; 2023 Hubert Koz&#322;owski. All rights reserved.</p>
-        </div>
+    <footer class="footer text-center" style="background-color: #f8f9fa">
+      <div class="container">
+        <p style="color: #ccc">
+          &copy; 2023 Hubert Koz&#322;owski. All rights reserved.
+        </p>
+      </div>
     </footer>
 
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR-GA-TRACKING-ID"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=YOUR-GA-TRACKING-ID"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-EQJRC7S56V');
+      gtag("config", "G-EQJRC7S56V");
     </script>
 
     <!-- JavaScript and Bootstrap Scripts -->
@@ -401,70 +479,42 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="smooth-scroll.js"></script>
+    <script src="highlight.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    
+
+
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const destinationButtons = document.querySelectorAll('.destination-button');
+      $(document).ready(function () {
+        // Check if the user has already accepted cookies
+        if (localStorage.getItem("cookiesAccepted") !== "true") {
+          // Show the cookies popup if not accepted
+          $("#cookies-popup").removeClass("d-none");
+        }
 
-            destinationButtons.forEach(button => {
-                button.addEventListener('click', function (event) {
-                    event.preventDefault();
-                    const destinationId = this.getAttribute('href').replace('#', '');
-                    const destination = document.getElementById(destinationId);
-
-                    // Remove the 'highlight' class from all detailed containers
-                    document.querySelectorAll('.detailed').forEach(container => {
-                        container.classList.remove('highlight');
-                    });
-
-                    // Add the 'highlight' class to the clicked detailed container
-                    destination.classList.add('highlight');
-
-                    // Remove the 'highlight' class after 5 seconds
-                    setTimeout(function () {
-                        destination.classList.remove('highlight');
-                    }, 5000);
-                });
-            });
+        // Handle the "Accept" button click
+        $("#accept-cookies").click(function () {
+          // Set a flag in local storage
+          localStorage.setItem("cookiesAccepted", "true");
+          // Hide the cookies popup
+          $("#cookies-popup").addClass("d-none");
         });
-    </script>
-    <script>
-        $(document).ready(function () {
-            // Check if the user has already accepted cookies
-            if (localStorage.getItem('cookiesAccepted') !== 'true') {
-                // Show the cookies popup if not accepted
-                $('#cookies-popup').removeClass('d-none');
-            }
 
-            // Handle the "Accept" button click
-            $('#accept-cookies').click(function () {
-                // Set a flag in local storage
-                localStorage.setItem('cookiesAccepted', 'true');
-                // Hide the cookies popup
-                $('#cookies-popup').addClass('d-none');
-            });
-
-            // Handle the "Decline" button click
-            $('#decline-cookies').click(function () {
-                // Handle the user's choice to decline cookies (e.g., do not set cookies)
-                // You can add additional actions here
-                // Hide the cookies popup
-                $('#cookies-popup').addClass('d-none');
-            });
-
-            // Handle the "Reset Cookies" button click
-            $('#reset-cookies').click(function () {
-                // Clear the cookiesAccepted flag in local storage
-                localStorage.removeItem('cookiesAccepted');
-                // Show the cookies popup
-                $('#cookies-popup').removeClass('d-none');
-            });
+        // Handle the "Decline" button click
+        $("#decline-cookies").click(function () {
+          // Handle the user's choice to decline cookies (e.g., do not set cookies)
+          // You can add additional actions here
+          // Hide the cookies popup
+          $("#cookies-popup").addClass("d-none");
         });
+
+        // Handle the "Reset Cookies" button click
+        $("#reset-cookies").click(function () {
+          // Clear the cookiesAccepted flag in local storage
+          localStorage.removeItem("cookiesAccepted");
+          // Show the cookies popup
+          $("#cookies-popup").removeClass("d-none");
+        });
+      });
     </script>
-
-
-
-</body>
-
+  </body>
 </html>
